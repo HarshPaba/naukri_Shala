@@ -79,7 +79,6 @@ parso==0.8.3
 pdf2docx==0.5.6
 pdfminer.six==20221105
 pickleshare==0.7.5
-pip==23.1.2
 plac==1.1.3
 platformdirs==3.5.0
 preshed==3.0.8
