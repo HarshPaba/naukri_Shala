@@ -30,6 +30,7 @@ def extract_text_from_pdf(pdf_path):
 
  
 # you may read the database from a csv file or some other database
+
 SKILLS = [
     'machine learning',
     'data science',
@@ -39,10 +40,7 @@ SKILLS = [
     'English',
     'ml',
     'web',
-   
-]
-SKILLS = [
-    'Programming Languages,
+    'Programming Languages',
     'java',
     'python',
     'c++',
@@ -51,8 +49,9 @@ SKILLS = [
     'css',
     'react',
     'angular',
-    'Web Development 
-    'Database Management ,
+    'Web Development',
+    'Database Management',
+    'dbms',
     'SQL', 
     'MySQL', 
     'PostgreSQL', 
