@@ -5,18 +5,13 @@ from docx import Document
 # import numpy as np
 import pandas as pd
 import nltk
+nltk.download('stopwords')
 from nltk.corpus import stopwords
 stopw  = set(stopwords.words('english'))
 df =pd.read_csv('job_final.csv') 
 
 df['test']=df['Job_Description'].apply(lambda x: ' '.join([word for word in str(x).split() if len(word)>2 and word not in (stopw)]))
 df['test']
-
-
-# import docx2txt
-import nltk
- 
-nltk.download('stopwords')
 
 # from pdf2docx import Converter
 # import os
